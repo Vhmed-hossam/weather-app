@@ -1,0 +1,194 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: cursive;
+color: #bfc1c8;
+}
+body{
+background-color: #2c2d35;
+}
+nav{
+background: #546372;}
+nav ul li a {
+text-decoration: none;
+color: #FFF;
+font-size: 1rem;
+font-weight: bold;
+transition: all 0.3s ease;
+padding: 3px 15px;
+border-radius: 50px;
+cursor: pointer;
+border: 1px solid transparent;
+}
+nav ul li a:hover{
+color: rgb(65, 51, 156);    
+border: 1px solid rgb(65, 51, 156);
+}
+.vip{
+color: rgb(65, 51, 156);
+border: 1px solid rgb(65, 51, 156);
+}
+.bgbanner{
+background-size: cover;
+min-height: 350px;
+object-fit: contain;
+background-image: url(imgs/banner.png);
+background-repeat: no-repeat;
+background-position: center;
+position: relative;
+}
+#theoneandonlyinput{
+border-radius: 40px;
+transition: all 0.3s ease;
+width: 100%;
+padding: 20px 50px 20px 20px;
+background: #1e202b;
+border: 0;
+color: #bfc1c8;
+}
+.dafake{
+width: 100%;
+background: #323544;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+width: 100%;
+overflow: hidden;
+border-radius: 10px;
+margin-top: -150px;
+margin-bottom: 50px;
+}
+.search{
+position: absolute;
+top: 5px;
+right: 5px;
+bottom: 5px;
+padding: 0 40px;
+margin-right: 1px;
+background: linear-gradient(135deg , #027C83, #5b548a);
+color: #bfc1c8;
+border-radius: 50px;
+border: none;
+cursor: pointer;
+transition: all 0.3s ease;
+}
+.search:hover{
+background: linear-gradient(135deg ,#04b0b9,rgb(96, 78, 216));
+color: #fff;
+}
+#theoneandonlyinput:focus{
+outline: none;
+box-shadow: 0 0 0 2px
+rgb(96, 78, 216);
+}
+.thetoday{
+padding: 4px 8px 4px 8px;
+border-radius: 5px;
+background: rgba(0, 0, 0, 0.1);
+}
+.thetoday h2{
+color: #bfc1c8;
+font-size: 1.5rem;
+font-weight: bold;
+padding: 0;
+margin: 0;
+}
+.caard{
+padding: 5px 0px;
+gap: 10px;
+border-radius: 15px;
+background: #1e202b;
+color: #bfc1c8;
+width: 100%;
+}
+.hambozo{
+padding: 5px;
+border-radius: 10px;
+text-align: center;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+animation: LGra 5s infinite ;
+}
+.fa-cloud{
+color: #fafafa;
+}
+#thetemp{
+color: #fff;
+}
+@keyframes LGra {
+0%{
+border: 1px solid #5b548a;
+}
+50%{
+border: 1px solid #0cd3de;}
+100%{
+border: 1px solid #5b548a;
+}
+}
+.hambozo h1{
+padding: 0;
+margin: 0;
+}
+.hambozoo{
+padding: 5px;
+border-radius: 10px;
+text-align: center;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+border: 1px solid #5b548a;
+}
+p{
+padding: 0;
+margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    height: fit-content;
+}
+footer{
+padding: 50px 0px;
+
+background-color:#262936;}
+.col-md-4{
+height: auto;
+}
+.thecircle{
+border: 1px solid rgb(96, 78, 216);
+border-radius: 50%;
+}
+.fa-brands{
+cursor: pointer;
+}
+.thecircle i{
+color: rgb(96, 78, 216);
+transition: all 0.3s ease;
+}
+.thecircle:hover{
+background: linear-gradient(135deg ,#04b0b9,rgb(96, 78, 216));
+}
+.thecircle:hover i{
+color: #fff;
+}
+.navbar-collapse{
+    flex-basis: 0;
+    flex-grow: 0;
+}
+.navbar-toggler{
+    border: 1px solid #5b548a;
+    color: #027c83;
+    transition: all 0.3s ease;
+}
+.navbar-toggler:hover{
+    background: linear-gradient(135deg ,#04b0b9,rgb(96, 78, 216));
+color: #04b0b9;
+}
+#thecity{
+    padding-bottom: 10px;
+}
